@@ -4,76 +4,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FERSA — Portfolio</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #000;
-      color: #fff;
-    }
-    header {
-      padding: 60px 20px;
-      text-align: center;
-      border-bottom: 1px solid #333;
-    }
-    h1 {
-      font-size: 48px;
-      margin: 0;
-      letter-spacing: 2px;
-    }
-    h2 {
-      font-weight: 300;
-      margin-top: 10px;
-      color: #c9a86a;
-    }
-    section {
-      padding: 60px 20px;
-      max-width: 900px;
-      margin: 0 auto;
-      line-height: 1.6;
-    }
-    .card {
-      border: 1px solid #333;
-      padding: 20px;
-      border-radius: 12px;
-      margin-bottom: 20px;
-      background: #111;
-    }
-    footer {
-      text-align: center;
-      padding: 40px 20px;
-      border-top: 1px solid #333;
-      margin-top: 60px;
-      font-size: 14px;
-      color: #777;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>FERSA</h1>
-    <h2>Reposicionamento · Narrativa · Estratégia</h2>
+    <div class="header-container">
+      <h1>FERSA</h1>
+      <h2>Reposicionamento · Narrativa · Estratégia</h2>
+      <a href="#contact" class="btn-primary">Entre em contato</a>
+    </div>
   </header>
 
-  <section>
-    <h2 style="color:white;">Sobre</h2>
-    <div class="card">
-      <p>Consultoria premium em posicionamento, percepção e narrativa estratégica para empresários e profissionais liberais que buscam clareza, direção e autoridade real no digital.</p>
+  <section id="about">
+    <h2>Sobre</h2>
+    <div class="about-container">
+      <div class="about-image">
+        <img src="placeholder.png" alt="Imagem do FERSA">
+      </div>
+      <div class="about-text">
+        <p>Consultoria premium em posicionamento, percepção e narrativa estratégica para empresários e profissionais liberais que buscam clareza, direção e autoridade real no digital.</p>
+        <ul>
+          <li>INOVA 2.0 — Acompanhamento premium de 6 meses</li>
+          <li>i9 Express — Close Friends estratégico</li>
+          <li>Análises Direcionadas</li>
+          <li>Planos estratégicos sob medida</li>
+        </ul>
+      </div>
     </div>
+  </section>
 
-    <h2 style="color:white;">Serviços</h2>
-    <div class="card">
-      <p>• INOVA 2.0 — Acompanhamento premium de 6 meses<br>
-         • i9 Express — Close Friends estratégico<br>
-         • Análises Direcionadas<br>
-         • Planos estratégicos sob medida
-      </p>
+  <section id="portfolio">
+    <h2>Portfólio</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item"><img src="placeholder.png" alt="Projeto 1"></div>
+      <div class="portfolio-item"><img src="placeholder.png" alt="Projeto 2"></div>
+      <div class="portfolio-item"><img src="placeholder.png" alt="Projeto 3"></div>
+      <div class="portfolio-item"><img src="placeholder.png" alt="Projeto 4"></div>
+      <div class="portfolio-item"><img src="placeholder.png" alt="Projeto 5"></div>
+      <div class="portfolio-item"><img src="placeholder.png" alt="Projeto 6"></div>
     </div>
+  </section>
 
-    <h2 style="color:white;">Contato</h2>
-    <div class="card">
-      <p>Entre em contato via WhatsApp<br>
-      <a href="https://wa.me/5513996974604" style="color:#c9a86a;">Clique aqui</a></p>
+  <section id="contact">
+    <h2>Contato</h2>
+    <div class="contact-container">
+      <form>
+        <input type="text" placeholder="Seu nome" required>
+        <input type="email" placeholder="Seu e-mail" required>
+        <textarea placeholder="Sua mensagem" required></textarea>
+        <button type="submit" class="btn-primary">Enviar</button>
+      </form>
+      <div class="contact-info">
+        <p>Email: contato@fersa.com.br</p>
+        <p>Telefone: +55 13 99697-4604</p>
+      </div>
     </div>
   </section>
 
