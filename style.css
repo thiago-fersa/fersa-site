@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FERSA — Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: #fff;
+    }
+    header {
+      padding: 60px 20px;
+      text-align: center;
+      border-bottom: 1px solid #333;
+    }
+    h1 {
+      font-size: 48px;
+      margin: 0;
+      letter-spacing: 2px;
+    }
+    h2 {
+      font-weight: 300;
+      margin-top: 10px;
+      color: #c9a86a;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    .card {
+      border: 1px solid #333;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      background: #111;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      border-top: 1px solid #333;
+      margin-top: 60px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+
+<!-- ===================== -->
+<!--  ARQUIVO SEPARADO: style.css  -->
+<!-- ===================== -->
+/* Salve como: style.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: #fff;
+}
+header {
+  padding: 60px 20px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+h1 {
+  font-size: 48px;
+  margin: 0;
+  letter-spacing: 2px;
+}
+h2 {
+  font-weight: 300;
+  margin-top: 10px;
+  color: #c9a86a;
+}
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+.card {
+  border: 1px solid #333;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  background: #111;
+}
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  border-top: 1px solid #333;
+  margin-top: 60px;
+  font-size: 14px;
+  color: #777;
+}
+</head>
+<body>
+  <header>
+    <h1>FERSA</h1>
+    <h2>Reposicionamento · Narrativa · Estratégia</h2>
+  </header>
+
+  <section>
+    <h2 style="color:white;">Sobre</h2>
+    <div class="card">
+      <p>Consultoria premium em posicionamento, percepção e narrativa estratégica para empresários e profissionais liberais que buscam clareza, direção e autoridade real no digital.</p>
+    </div>
+
+    <h2 style="color:white;">Serviços</h2>
+    <div class="card">
+      <p>• INOVA 2.0 — Acompanhamento premium de 6 meses<br>
+         • i9 Express — Close Friends estratégico<br>
+         • Análises Direcionadas<br>
+         • Planos estratégicos sob medida
+      </p>
+    </div>
+
+    <h2 style="color:white;">Contato</h2>
+    <div class="card">
+      <p>Entre em contato via WhatsApp:<br>
+        <a href="https://wa.me/5513996974604" style="color:#c9a86a;">Clique aqui</a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 FERSA — Todos os direitos reservados
+  </footer>
+</body>
+</html>
